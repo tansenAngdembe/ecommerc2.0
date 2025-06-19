@@ -41,5 +41,5 @@ A full-featured Spring Boot-based E-commerce web application integrated with **e
 4. Server verifies the result and updates order/payment status.
 
 ### 🔒 Security:
-- Uses **SHA-512 hash signature** for transaction integrity.
+- Uses **sha256_HMAC hash signature** for transaction integrity.
 - Backend callback endpoint verifies payment using:
